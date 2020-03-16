@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/app": [
+                "app/app.js"
+            ],
+            "c/bike": [
+                "bike/bike.js"
+            ],
+            "c/data": [
+                "data/data.js"
+            ],
+            "c/detail": [
+                "detail/detail.js"
+            ],
+            "c/list": [
+                "list/list.js"
+            ],
+            "c/selector": [
+                "selector/selector.js"
+            ],
+            "c/tile": [
+                "tile/tile.js"
+            ],
+            "c/userInformation": [
+                "userInformation/userInformation.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
