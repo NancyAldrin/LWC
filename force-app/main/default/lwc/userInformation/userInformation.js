@@ -14,6 +14,7 @@ import EMAIL_FIELD from '@salesforce/schema/User.Email';
  
  
 export default class Userinfoexample extends LightningElement {
+    //test
     @track error ;
     @track email ; 
     @track name;
